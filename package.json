@@ -1,0 +1,50 @@
+{
+  "name": "WRRF",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p --progress --colors",
+    "watch": "webpack -p --progress --colors --watch",
+    "test": "mocha --ui qunit --compilers js:babel-core/register"
+  },
+  "keywords": [
+    "sass",
+    "react",
+    "webpack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuliang007/WRRF.git"
+  },
+  "author": "zhuliang007",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuliang007/WRRF/issues"
+  },
+  "homepage": "https://github.com/zhuliang007/WRRF#readme",
+  "devDependencies": {
+    "babel": "^5.8.38",
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.7.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "json-loader": "^0.5.4",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "node-sass": "^3.10.1",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
